@@ -1,5 +1,7 @@
 from tkinter import *
-
+5 #calls action() when pressed
+ 16 button = Button(text="Click Me", command=action)
+ 17 button.pack()
 #Creating a new window and configurations
 window = Tk()
 window.title("Widget Examples")
